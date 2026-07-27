@@ -53,3 +53,23 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# PostgreSQL extension build artifacts
+results/
+tmp_install/
+log/
+regression.diffs
+regression.out
+*.sql.out
+
+# Editor / IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# Generated files
+install_extension.sql
+
+pg_immutable_plan.md

@@ -1,0 +1,9 @@
+# pg_immutable extension control file
+# Provides cryptographically verifiable immutability for PostgreSQL records.
+# MIT License - Copyright (c) 2026 MAlnahdi
+
+comment = 'Cryptographically verifiable record immutability for PostgreSQL'
+default_version = '1.0'
+module_pathname = '$libdir/pg_immutable'
+relocatable = false
+schema = immutable
